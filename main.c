@@ -442,7 +442,7 @@ int readFile(char* fileName)
 
         int lineAnswer = postfixToValue(postfixString);
 
-        printf("Infix:  %s\n", infix);
+        printf("Infix: %s\n", infix);
         printf("Postfix: %s\n", postfixString);
         printf("The value is %d\n", lineAnswer);
 
